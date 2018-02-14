@@ -1,11 +1,16 @@
 # ISE project
 
-Members: Agathe, Arzhan, Fahad, Ibrahim, Sebastian
+Members: Arzhan, Fahad, Ibrahim, Sebastian
 
 ### Tasks
-TBC
 
-Could everyone please tell me what we agreed they will work on for now? I'll put it here so there is some more structure to this.
+Arzhan - Use case diagrams and writing requirements
+
+Fahad - State machine diagram
+
+Sebastian - Implementing java code and drawing class diagram
+
+Ibrahim - Design GUI
 
 ### Meetings
 
