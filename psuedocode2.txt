@@ -1,0 +1,34 @@
+# initial screen
+If submit button pressed and flightDataIsvalid():
+    oneWayFlights = lookupFlight(startDest, endDest, travelDate)
+    if return flight was entered:
+        returnFlights = lookupFlight(endDest, startDest, returnDate)
+
+    listing = generateSummaryListing(oneWayFlights, returnFlights)
+
+
+# summary listing screen
+Display listing on summary screen
+if back button pressed
+    go back to initial screen
+if one or more flight options selected
+    display details of selected flights
+    if back button pressed
+        go back to summary listing
+    if confirm button pressed
+        go to booking screen
+
+# booking screen
+if back button pressed
+    go back to initial screen
+if submit button pressed and bookingDataIsValid()
+    go to payment screen
+
+# payment screen
+connectToExternalPaymentService()
+if payment was successful
+    recordSuccessfulPayment()
+    recordCustomerDetails()
+    recordBookingDetails()
+else
+    recordUnsuccessfulPayment
